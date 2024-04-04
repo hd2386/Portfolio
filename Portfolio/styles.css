@@ -382,6 +382,15 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+.article-container-prj {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+  color: aqua;
+}
 
 /* CONTACT */
 
