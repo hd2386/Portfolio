@@ -5,7 +5,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 function goToWeatherApiPage() {
-  window.location.href = "WeatherApiSorter.html";
+  window.location.href = "WeatherApp/WeatherAPISorter.html";
 }
 function goToMoviewPage() {
   window.location.href = "MovieApp/moview.html";

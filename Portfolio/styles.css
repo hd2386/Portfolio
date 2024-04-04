@@ -315,6 +315,7 @@ section {
 }
 .text-container {
   font-weight: bold;
+  line-height: 40px;
 }
 
 /* EXPERIENCE SECTION */
