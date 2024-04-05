@@ -315,7 +315,7 @@ section {
 }
 .text-container {
   font-weight: bold;
-  line-height: 40px;
+  line-height: 34px;
 }
 
 /* EXPERIENCE SECTION */
@@ -382,6 +382,7 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  padding: 0.8rem;
 }
 .article-container-prj {
   display: flex;
