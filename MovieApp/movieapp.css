@@ -27,6 +27,35 @@ header {
 header h1 {
   letter-spacing: 5px;
   color: #fff;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Arada bir boşluk bırakmak için */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-right: 570px;
+}
+
+nav li {
+  margin-right: 50px; /* Her öğe arasına boşluk eklemek için */
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav li a:hover {
+  color: rgb(179, 177, 177);
+  text-decoration: underline;
 }
 
 .search {
@@ -118,6 +147,7 @@ main {
   margin-bottom: 0.5rem;
   border-bottom: 2px solid #79b8f3;
   width: 50%;
+  font-size: 25px;
 }
 
 .movie:hover .overview {
