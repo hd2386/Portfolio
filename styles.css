@@ -176,7 +176,7 @@ section {
   margin: auto 0;
   border-radius: 50%;
 }
-.profile-pic {
+.drop-shadow {
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* X offset, Y offset, Blur radius, Shadow color */
 }
@@ -306,6 +306,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* X offset, Y offset, Blur radius, Shadow color */
 }
 
 .section-container {
@@ -323,7 +324,7 @@ section {
   line-height: 34px;
 }
 
-/* EXPERIENCE SECTION */
+/* FSECTION */
 
 #experience {
   position: relative;
@@ -354,7 +355,6 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
   gap: 0.5rem;
 }
 
