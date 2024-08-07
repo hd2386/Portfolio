@@ -97,7 +97,8 @@ document.addEventListener("DOMContentLoaded", function () {
       method: "GET",
       headers: {
         accept: "application/json",
-        Authorization: `Bearer ${MOVIEW_API_KEY}`,
+        Authorization:
+          "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NjJmNDk0MTg5YmNmYzM3MzY4Mzc5OWUwYTE2MjA4OCIsInN1YiI6IjY2MGVhOWVmZTAzOWYxMDE2MmU2Nzg4OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.StlA3Bu4KquXnJc6tpvuMQbe6cBh3RG8P6A-CVKsXQY",
       },
     };
 
